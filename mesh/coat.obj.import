@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://df8c1k8nix4lo"
+path="res://.godot/imported/coat.obj-32cb01754371f0813b1011fbc503342a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coat.obj-32cb01754371f0813b1011fbc503342a.mesh"]
+
+source_file="res://mesh/coat.obj"
+dest_files=["res://.godot/imported/coat.obj-32cb01754371f0813b1011fbc503342a.mesh", "res://.godot/imported/coat.obj-32cb01754371f0813b1011fbc503342a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

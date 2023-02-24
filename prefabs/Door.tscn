@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://c58mui63kbch3"]
+
+[ext_resource type="ArrayMesh" uid="uid://bxhdkgts07rpd" path="res://mesh/door.obj" id="1_enitb"]
+[ext_resource type="Material" uid="uid://5belfu6c8hpk" path="res://material/doormat.tres" id="2_mlp4r"]
+[ext_resource type="Material" uid="uid://djxpv324w3uk4" path="res://material/glass.tres" id="3_24j6t"]
+
+[node name="Door" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0216997, 0)
+gi_mode = 1
+mesh = ExtResource( "1_enitb" )
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource( "2_mlp4r" )
+surface_material_override/1 = ExtResource( "3_24j6t" )
+surface_material_override/2 = ExtResource( "2_mlp4r" )
+surface_material_override/3 = ExtResource( "2_mlp4r" )
+surface_material_override/4 = ExtResource( "2_mlp4r" )

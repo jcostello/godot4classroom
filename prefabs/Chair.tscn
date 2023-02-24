@@ -1,0 +1,14 @@
+[gd_scene load_steps=6 format=3 uid="uid://brsweagvu0qe1"]
+
+[ext_resource type="ArrayMesh" uid="uid://cubo00t7ecfxl" path="res://mesh/chair.obj" id="1_6knv2"]
+[ext_resource type="Material" uid="uid://7qb5ue78orqy" path="res://material/chrome.tres" id="2_meat4"]
+[ext_resource type="Material" uid="uid://dpa7jgj3fmvpj" path="res://material/brightwood.tres" id="3_rdtww"]
+[ext_resource type="Material" uid="uid://jxt1ydnoq1bg" path="res://material/Varnish.tres" id="4_b2ojg"]
+[ext_resource type="Material" uid="uid://c86sctphoqv66" path="res://material/ambshad2.tres" id="5_io4t6"]
+
+[node name="Chair" type="MeshInstance3D"]
+mesh = ExtResource("1_6knv2")
+surface_material_override/0 = ExtResource("2_meat4")
+surface_material_override/1 = ExtResource("3_rdtww")
+surface_material_override/2 = ExtResource("4_b2ojg")
+surface_material_override/3 = ExtResource("5_io4t6")

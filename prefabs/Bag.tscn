@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://b64k6rvyo5656"]
+
+[ext_resource type="ArrayMesh" uid="uid://wedtd1axaom" path="res://mesh/bag.obj" id="1_t4bil"]
+[ext_resource type="Material" uid="uid://7qb5ue78orqy" path="res://material/chrome.tres" id="2_chkjn"]
+[ext_resource type="Material" uid="uid://c1co5fc8nu7px" path="res://material/leather.tres" id="3_8papt"]
+
+[node name="Bag" type="MeshInstance3D"]
+gi_mode = 1
+mesh = ExtResource( "1_t4bil" )
+surface_material_override/0 = ExtResource( "2_chkjn" )
+surface_material_override/1 = ExtResource( "3_8papt" )

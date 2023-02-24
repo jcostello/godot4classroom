@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://r4fmhidndgdr"
+path="res://.godot/imported/ceiley.obj-b3afb93904a81c19d3bbff0987ed6ccb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ceiley.obj-b3afb93904a81c19d3bbff0987ed6ccb.mesh"]
+
+source_file="res://mesh/ceiley.obj"
+dest_files=["res://.godot/imported/ceiley.obj-b3afb93904a81c19d3bbff0987ed6ccb.mesh", "res://.godot/imported/ceiley.obj-b3afb93904a81c19d3bbff0987ed6ccb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

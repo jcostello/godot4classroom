@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5xol52aikgiu"
+path="res://.godot/imported/radiator.obj-a442875fd380b7d23054b30820a22204.mesh"
+
+[deps]
+
+files=["res://.godot/imported/radiator.obj-a442875fd380b7d23054b30820a22204.mesh"]
+
+source_file="res://mesh/radiator.obj"
+dest_files=["res://.godot/imported/radiator.obj-a442875fd380b7d23054b30820a22204.mesh", "res://.godot/imported/radiator.obj-a442875fd380b7d23054b30820a22204.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

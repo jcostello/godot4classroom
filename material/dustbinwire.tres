@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://t2k743moxfxt"]
+
+[ext_resource type="Texture2D" uid="uid://bi6q5j0u4rrdc" path="res://textures/dustbin_wireframe.png" id="1_bwvwn"]
+
+[resource]
+transparency = 2
+alpha_scissor_threshold = 0.4
+alpha_antialiasing_mode = 1
+alpha_antialiasing_edge = 0.3
+cull_mode = 2
+albedo_texture = ExtResource("1_bwvwn")
+metallic_specular = 1.0
+roughness = 0.27

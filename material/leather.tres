@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://c1co5fc8nu7px"]
+
+[ext_resource type="Texture2D" uid="uid://cy4bst8jt1g6c" path="res://textures/_baseTextures/base_leather.jpg" id="1_x8u45"]
+
+[resource]
+cull_mode = 2
+albedo_color = Color(0.968627, 0.968627, 0.968627, 1)
+albedo_texture = ExtResource("1_x8u45")
+metallic = 0.12
+metallic_specular = 0.82
+roughness = 0.64

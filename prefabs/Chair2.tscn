@@ -1,0 +1,12 @@
+[gd_scene load_steps=5 format=3 uid="uid://p48xigxfd3my"]
+
+[ext_resource type="ArrayMesh" uid="uid://ckeq1xnw20ogk" path="res://mesh/chair2.obj" id="1_ow667"]
+[ext_resource type="Material" uid="uid://dfpdwcadp6288" path="res://material/ambshad.tres" id="2_jlsp0"]
+[ext_resource type="Material" uid="uid://7qb5ue78orqy" path="res://material/chrome.tres" id="2_o20p4"]
+[ext_resource type="Material" uid="uid://5k6o5xmgo7kk" path="res://material/brownwood.tres" id="4_0kiqs"]
+
+[node name="Chair17" type="MeshInstance3D"]
+mesh = ExtResource("1_ow667")
+surface_material_override/0 = ExtResource("2_jlsp0")
+surface_material_override/1 = ExtResource("2_o20p4")
+surface_material_override/2 = ExtResource("4_0kiqs")

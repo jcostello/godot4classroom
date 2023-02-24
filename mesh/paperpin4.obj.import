@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgvg6stigydlx"
+path="res://.godot/imported/paperpin4.obj-0f3854854fed09d21c6c17b59d45d631.mesh"
+
+[deps]
+
+files=["res://.godot/imported/paperpin4.obj-0f3854854fed09d21c6c17b59d45d631.mesh"]
+
+source_file="res://mesh/paperpin4.obj"
+dest_files=["res://.godot/imported/paperpin4.obj-0f3854854fed09d21c6c17b59d45d631.mesh", "res://.godot/imported/paperpin4.obj-0f3854854fed09d21c6c17b59d45d631.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

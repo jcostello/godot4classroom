@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cy21jkxssp52v"
+path="res://.godot/imported/pipeclamp.obj-db09bddbc1c7f2913f3fc8c5d48c13ee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pipeclamp.obj-db09bddbc1c7f2913f3fc8c5d48c13ee.mesh"]
+
+source_file="res://mesh/pipeclamp.obj"
+dest_files=["res://.godot/imported/pipeclamp.obj-db09bddbc1c7f2913f3fc8c5d48c13ee.mesh", "res://.godot/imported/pipeclamp.obj-db09bddbc1c7f2913f3fc8c5d48c13ee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

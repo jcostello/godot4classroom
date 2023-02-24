@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://5k6o5xmgo7kk"]
+
+[ext_resource type="Texture2D" uid="uid://h3nsi6v502bu" path="res://textures/_baseTextures/base_brownWood.jpg" id="1_qktgx"]
+
+[resource]
+albedo_color = Color(0.764706, 1, 0.976471, 1)
+albedo_texture = ExtResource("1_qktgx")
+metallic_specular = 0.51
+uv1_scale = Vector3(2.1, 1.958, 2.1)

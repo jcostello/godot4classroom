@@ -1,0 +1,10 @@
+[gd_resource type="CameraEffects" format=3 uid="uid://v0g1f5ujhcud"]
+
+[resource]
+resource_local_to_scene = false
+resource_name = ""
+dof_blur_near_enabled = true
+dof_blur_near_distance = 4.27
+dof_blur_near_transition = 4.62
+dof_blur_amount = 0.15
+override_exposure = 0.85

@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3w43wrdn2smo"]
+
+[ext_resource type="ArrayMesh" uid="uid://5xol52aikgiu" path="res://mesh/radiator.obj" id="1_tth5u"]
+[ext_resource type="Material" uid="uid://qql4hlq8chth" path="res://material/Radiator.tres" id="2_66711"]
+[ext_resource type="Material" uid="uid://c86sctphoqv66" path="res://material/ambshad2.tres" id="3_0aqki"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_8bnmp"]
+size = Vector2(1.491, 1.08)
+
+[sub_resource type="QuadMesh" id="QuadMesh_kxke4"]
+size = Vector2(1.336, 0.974)
+
+[node name="Radiator" type="MeshInstance3D"]
+mesh = ExtResource("1_tth5u")
+surface_material_override/0 = ExtResource("2_66711")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.55116, 0.347509, 0.792312)
+cast_shadow = 0
+mesh = SubResource("QuadMesh_8bnmp")
+surface_material_override/0 = ExtResource("3_0aqki")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.91069e-15, 1, 4.37114e-08, 4.37114e-08, -4.37114e-08, 1, 1, 0, -4.37114e-08, 3.67989, 0.00430892, 0.838443)
+cast_shadow = 0
+mesh = SubResource("QuadMesh_kxke4")
+surface_material_override/0 = ExtResource("3_0aqki")

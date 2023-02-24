@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bgok63yn2axce"]
+
+[ext_resource type="Texture2D" uid="uid://b7yfuikw03bo0" path="res://textures/woodPlanks.jpg" id="1_p37nm"]
+
+[resource]
+resource_name = "woodPlanks"
+albedo_color = Color(0.886275, 0.886275, 0.886275, 1)
+albedo_texture = ExtResource("1_p37nm")

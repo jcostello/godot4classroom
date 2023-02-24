@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://thqco3rvobf3"]
+
+[ext_resource type="ArrayMesh" uid="uid://bofufn8c4tcxb" path="res://mesh/lamp.obj" id="1_l2bnu"]
+[ext_resource type="Material" uid="uid://7qb5ue78orqy" path="res://material/chrome.tres" id="2_mvbxo"]
+[ext_resource type="Material" uid="uid://c10hxlhirf6ec" path="res://material/light.tres" id="3_uolse"]
+
+[node name="Lamp" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0449437, 0)
+gi_mode = 2
+mesh = ExtResource("1_l2bnu")
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource("2_mvbxo")
+surface_material_override/1 = ExtResource("2_mvbxo")
+surface_material_override/2 = ExtResource("2_mvbxo")
+surface_material_override/3 = ExtResource("3_uolse")
+surface_material_override/4 = ExtResource("2_mvbxo")
+surface_material_override/5 = ExtResource("2_mvbxo")
+surface_material_override/6 = ExtResource("2_mvbxo")
+surface_material_override/7 = ExtResource("2_mvbxo")
+surface_material_override/8 = ExtResource("2_mvbxo")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.97731, 2.30487, 0.675669)
+light_color = Color(1, 0.894118, 0.792157, 1)
+light_energy = 0.12
+light_size = 0.48
+light_specular = 0.17
+omni_range = 3.79972
+omni_attenuation = 1.41421

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dpa7jgj3fmvpj"]
+
+[ext_resource type="Texture2D" uid="uid://dl02k2a55865u" path="res://textures/_baseTextures/base_brightWood.png" id="1_b6kpv"]
+
+[resource]
+resource_name = "schoolDesk_wood"
+albedo_texture = ExtResource("1_b6kpv")
+metallic_specular = 0.57
+roughness = 0.94
